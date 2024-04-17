@@ -1,0 +1,67 @@
+## GitIgnore v0.2
+
+## Config Files
+config.json
+Config.json
+config.csv
+Config.csv
+*.env
+## Jupyter data
+data/*
+Data/*
+*/data/*
+*/Data/*
+.ipynb_checkpoints/*
+*/.ipynb_checkpoints/*
+
+## Power BI
+*.pbix
+
+## Data Files 
+*.mdmp
+*.csv
+*.xls
+*.xlsx
+*.tsv
+*.log
+*.out
+
+## Archivos de R
+.RData
+.Rhistory
+Temporales/
+*.rds
+*.rout
+*.validacion
+*.file
+
+## Archivos de Python
+*.pkl
+
+## Archivos de plotly
+*-plot.html
+
+## KNIME files
+.knimeLock
+.project
+.savedWithData
+workflowset.meta
+
+## KNIME directories containing node data
+internal/
+port_*/
+.metadata/
+internalTables/
+filestore/
+
+# Packages #
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+venv/
